@@ -12,7 +12,7 @@ body{
 }
 .information-container{
     background-color: white;
-    width: auto;
+    width: 70vw;
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
