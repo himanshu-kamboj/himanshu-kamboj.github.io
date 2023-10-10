@@ -6,7 +6,7 @@
 .container{
     background-image:url("BG.jpg");
     background-repeat: no-repeat;
-    background-size: 1500px, 1200px;}
+    background-size: cover;}
 .one{
     font-family: 'Dancing Script', cursive;
     padding-left: 20px;
@@ -96,4 +96,9 @@ p{
 .social_media ul i:hover{
     transform: scale(1.5, 1.5);
     transition: .2s;
+}
+@media (min-width: 100px) and (max-width:500px){
+    .container{
+        background-size: cover;
+    }
 }
